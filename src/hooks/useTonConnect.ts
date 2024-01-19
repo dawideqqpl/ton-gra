@@ -1,8 +1,8 @@
 import { useTonConnectUI } from '@tonconnect/ui-react';
-import { Sender, SenderArguments, address } from '@ton/core';
-import { WalletContractV4 } from "@ton/ton";
+import { Sender, SenderArguments } from '@ton/core';
+//import { WalletContractV4 } from "@ton/ton";
 import TonWeb from "tonweb";
-import { useEffect, useState, Component } from 'react';
+import { useEffect} from 'react';
 import Cookies from 'universal-cookie';
 
 

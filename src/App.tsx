@@ -4,7 +4,7 @@ import { useTonConnect } from './hooks/useTonConnect';
 //import { useCounterContract } from './hooks/useCounterContract';
 import '@twa-dev/sdk';
 import '@twa-dev/sdk';
-import { Unity, useUnityContext } from "react-unity-webgl";
+//import { Unity, useUnityContext } from "react-unity-webgl";
 
 
 
@@ -23,12 +23,12 @@ function App() {
  
 
   
-  const { unityProvider } = useUnityContext({
-    loaderUrl: "public/test27.loader.js",
-    dataUrl: "public/test27.data",
-    frameworkUrl: "public/test27.framework.js",
-    codeUrl: "public/test27.wasm",
-  });
+//  const { unityProvider } = useUnityContext({
+//    loaderUrl: "public/test27.loader.js",
+//    dataUrl: "public/test27.data",
+//    frameworkUrl: "public/test27.framework.js",
+//    codeUrl: "public/test27.wasm",
+//  });
 
  
 
