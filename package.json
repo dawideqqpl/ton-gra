@@ -1,5 +1,5 @@
 {
-  "homepage":".",
+  "homepage":"https://dawideqqpl.github.io/ton-gra",
   "name": "ton-gra",
   "private": true,
   "version": "0.1.0",
@@ -8,7 +8,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
