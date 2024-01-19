@@ -34,7 +34,7 @@ function App() {
 
   //localStorage.setItem('items2', address);
 
-  if(connected == true)
+  if(connected == false)
   {
 
   return (
